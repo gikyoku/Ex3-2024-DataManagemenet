@@ -12,6 +12,6 @@ for i in range(3):
         print("Round " + str(i+1) + ": Tail")
 print("Heads: " + str(headcount) + ", Tails: " + str(3 - headcount))
 if headcount > 1:
-    print("You Won!")
+    print(user + " Won!")
 else:
-    print("You Lost...")
+    print(user + " Lost...")
