@@ -1,6 +1,7 @@
 import random
 user = input("Who are you?\n>")
 print("Hello, " + user + "!")
+
 print("Tossing a coin...")
 headcount = 0
 for i in range(3):
